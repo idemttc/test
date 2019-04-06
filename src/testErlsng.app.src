@@ -1,0 +1,12 @@
+{application, testErlsng,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { testErlsng_app, []}},
+  {env, []}
+ ]}.
